@@ -1,0 +1,252 @@
+@font-face{
+    font-family: "Helvetica Neue LT";
+    src: url(./font/HelveticaNeueLT-LightCond.otf);
+    font-weight: 200;
+}
+@font-face{
+    font-family: "Helvetica Neue LT";
+    src: url(./font/HelveticaNeueLT-ExtBlackCond.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: "Helvetica Neue LT";
+    src: url(./font/HelveticaNeueLT-BoldCond.otf);
+    font-weight: 600;
+}
+@font-face{
+    font-family: "Helvetica Neue LT";
+    src: url(./font/HelveticaNeueLT-MediumCond.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Helvetica Neue LT";
+    src: url(./font/HelveticaNeueLT-UltraLigCond.otf);
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: "Helvetica Neue LT";
+    src: url(./font/HelveticaNeueLT-Condensed.otf);
+    font-weight: 300;
+}
+
+body {
+    background: url(./img/background.png) no-repeat;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+strong{
+    color: #656565;
+    font-weight: 600;
+}
+.content-background-color{
+    position: absolute;
+    top:0;
+    left: -30px;
+    height: 100%;
+    z-index: -2;
+    background-color: #f7f7f7;
+    width: calc(100% + 40px);
+    border-radius: 10px; 
+}
+
+.container{
+    border-radius: 10px;
+    color: #b1b1b1;
+    font-family: "Helvetica Neue LT";
+    line-height: 18px;
+    font-size: 14px;
+    position: relative;
+}
+
+.header{
+    height: 120px;
+    margin: 0;
+    text-decoration: none !important;
+}
+
+.brand-name{
+    display: inline-block;
+    font-size: 28px;
+    color: #b1b1b1;
+    padding-top: 10px;
+}
+
+.brand-name>span, .phone span{
+    font-weight: lighter;
+}
+
+.slogan{
+    height: 44px;
+    line-height: 41px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.button-label{
+    color: #37567f;
+    font-size: 21px;
+    font-weight: 800;
+}
+.button-info{
+    color: #19293e;
+    font-weight: 200;
+    font-size: 14px;
+}
+.button-info, .button-label{
+    line-height: 19px;
+}
+
+
+.intro {
+    font-size: 22px;
+    line-height: 41px;
+    color: #5790dc;
+    font-weight: 300;
+}
+.btn{
+    width: 340px;
+    height: 53px;
+    padding: 0px;
+    border-radius: 27px;
+    background-color: rgba(255,255,255);
+    background-image: linear-gradient(0deg, #578fdb 0%, #92d9ff 58%, #d4eefe 100%);
+    padding: 5px 0;  
+    border: 1px solid #ffffff;
+    box-shadow: 0px 2px 2px rgba(22,59,94,0.72);
+}
+
+.btn:hover{
+    background-image: linear-gradient(0deg, #aaddfc 0%, #92d9ff 42%, #578fdb 100%);
+}
+
+
+.feature-item-container h3{
+    color: #000000;
+}
+
+.feature-item-container p{
+    font-size: 12px;
+    line-height: 17px;
+    color: #808080;
+    font-family: "Arial";
+}
+
+.author{
+    font-size: 12px;
+    line-height: 17px;
+    color: #808080;
+    font-family: "Arial";
+}
+
+
+
+.footer{
+    position: relative;
+    line-height: 41px;
+    color: #1c1c1c;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer p{
+    font-size: 12px;
+    line-height: 17px;
+    color: #1d1d1d;
+    font-family: "Arial";
+}
+
+.footer-background-color{
+    position: absolute;
+    top: 0px;
+    left: -45px;
+    height: 100%;
+    z-index: -1;
+    background-color: #828282;
+    width: calc(100% + 70px);
+}
+
+.copyright{
+    position: relative;
+    padding: 10px;
+}
+.copyright-background-color{
+    position: absolute;
+    top: 0px;
+    left: -45px;
+    height: 100%;
+    z-index: -1;
+    background-color: #555555;
+    width: calc(100% + 70px);
+}
+
+
+.social{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.social a{
+    margin-right: 5px;
+}
+
+.feature-intro-container{
+    top: 0px;
+    left: 0px;
+}
+
+.my-button{
+    position: relative;
+}
+
+.quote-wrapper{
+    position: relative;
+    border: black;
+}
+.author{
+}
+
+.author-wrapper{
+    float: right;
+}
+
+.triangle{
+    text-align: right;
+    position: relative;
+    width: 0;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #f1f1f1;
+}
+
+.quote{
+    font-size: 12px;
+    line-height: 17px;
+    color: #808080;
+    font-family: "Arial";
+    font-style: italic;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px #f1f1f1;
+    background-image: linear-gradient(0deg, #f1efef 0%, #e7e7e7 100%);
+    border: 3px #000000;
+    padding: 30px 35px;
+}
